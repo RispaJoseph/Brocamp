@@ -1,0 +1,106 @@
+.p{
+    font-family: BB-CondBold,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1.375rem;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+
+.display-images{
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    object-position: center top;
+    margin-top: -2.5px;
+
+    
+}
+
+
+.search-icon{
+    display: flex;
+    height: 18px;
+    width: 18px;
+    display: inline-flex;
+    background-color: aqua;
+    
+}
+
+
+.search-bar{
+        display: flex;
+        font-size: .75rem;
+        text-transform: uppercase;
+        width: 95.30%;
+        height: 2.75rem;
+        padding: 0 1rem 0 2.75rem;
+        margin-bottom: 2.5px;
+        line-height: 0%;
+        /* color: black; */
+        position: fixed;
+        top: 50px;
+        z-index: 1;
+        
+        
+}
+
+
+.display-block{
+    margin-top: -2.5px;
+    width: 100%;
+}
+
+.container-block{
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+    
+}
+
+
+
+.style{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.product-name{
+    font-family: BB-CondBold,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1.375rem;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    display: block;
+    position: absolute;
+    /* left: 550px;
+    bottom: 2780px; */
+    /* left: 42.5%; */
+    margin-top: -110px;
+    margin-left: 550px;
+    background-color: transparent;
+    
+    
+}
+
+.shop-button{
+    height: 40px;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0 0.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    
+}
+
+
+.shop-button:hover{
+    /* box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05); */
+    background-color: rgb(202, 202, 202);
+}

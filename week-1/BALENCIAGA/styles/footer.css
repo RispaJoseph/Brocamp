@@ -1,0 +1,40 @@
+.footer-section{
+    display: flex;
+    margin-bottom: 2px;
+    flex-direction: row;
+    background-color: rgb(165, 164, 164);
+    
+}
+
+
+.footer-content{
+    display: flex;
+    
+    flex-direction: column;
+    line-height: 30px;
+    padding-left: 25px;
+    justify-items: center;
+    border: 1px solid;
+    height: 240px;
+    justify-content: 25px;
+    align-items: left;
+    margin-bottom: 25px;
+    width: 250px;
+    font-size: 13.5px;
+    
+    
+}
+
+.text-link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.content-asset{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    background-color: rgb(165, 164, 164);
+    margin-top: -15px;
+}
