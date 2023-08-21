@@ -16,3 +16,5 @@ document.write("<br>");
 // logical NOT
 document.write(!(a==50));
 document.write("<br>");
+
+
