@@ -64,4 +64,30 @@ document.write(number[3] + number[0])
 document.write("<br><br> <u>Array using Characters</u><br>");
 var text = "Java Script";
 document.write(text[5]);
+
+
 document.write("<br>");
+document.write(text.charAt(7));
+
+
+document.write("<br>");
+var text1="Learn";
+document.write(text1.concat(text));
+
+
+
+document.write("<br>");
+var text2 = "HELLO";
+document.write(text2.toLowerCase());
+
+
+document.write("<br>");
+var text3 = "Rispa Joseph"
+document.write(text3.toUpperCase());
+
+
+
+
+document.write("<br>");
+var text4= "Learn Java Script";
+document.write(text4.slice(6,10));
