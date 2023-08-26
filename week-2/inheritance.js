@@ -21,4 +21,6 @@ class Supervisor extends Employee{
 let s1 = new Supervisor("Peter", "operation", 40000);
 console.log(s1);
 s1.getSalary();
+
+document.write("<br>");
 document.write(s1.salary);

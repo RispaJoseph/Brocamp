@@ -1,0 +1,66 @@
+/* .container{
+    background-color: rgb(148, 6, 124);
+    height: 50px;
+} */
+
+.container-fluid{
+    background-color: red;
+    height: 50px;
+}
+
+.container-sm{
+    background-color: aqua;
+    height: 50px;
+}
+
+.container-md{
+    background-color: red;
+    height: 50px;
+}
+
+.container-sm{
+    background-color: yellowgreen;
+    height: 50px;
+}
+
+
+.container-lg{
+    background-color: orange;
+    height: 50px;
+}
+
+
+.container-xl{
+    background-color: aqua;
+    height: 50px;
+}
+
+
+.container-xxl{
+    background-color: rgb(245, 9, 174);
+    height: 50px;
+}
+
+
+
+.container{
+    border: 2px solid blue;
+}
+
+.row{
+    border: 2px solid red;
+}
+
+
+.col-1{
+    border: 1px solid green;
+    background-color: pink;
+}
+
+
+
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+}
