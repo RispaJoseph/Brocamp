@@ -1,0 +1,12 @@
+
+{% load static %}
+
+{% include 'menu.html' %}
+<h1>List Movies</h1>
+
+{% for obj in movies %}
+<h1>Title : {{obj.title | upper}}</h1>
+<p>Summary : {{obj.description | default:'Data no available'}}</p>
+<h4>Year : {{obj.year}}</h4>
+
+{% endfor%}

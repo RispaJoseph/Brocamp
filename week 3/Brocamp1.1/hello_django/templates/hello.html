@@ -1,0 +1,10 @@
+{% for obj in movies %}
+<h1>Title : {{obj.title | upper}}</h1>
+<p>Summary : {{obj.summary | default:'Data no available'}}</p>
+<h4>Year : {{obj.year}}</h4>
+{% if success %}
+<p>Movie was a success at that time</p>
+{% else %}
+<p>Movie was a Failer</p>
+{% endif %}
+{% endfor%}
